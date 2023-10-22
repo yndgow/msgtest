@@ -1,0 +1,19 @@
+server: 
+  port: 90
+  servlet:
+    encoding:
+      charset: utf-8
+      force: true
+      
+spring:
+
+  h2:
+    console:
+      enabled: true
+  output:
+   ansi: 
+     enabled: always 
+    
+
+
+        
